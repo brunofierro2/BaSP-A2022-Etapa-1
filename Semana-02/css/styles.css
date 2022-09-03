@@ -1,3 +1,108 @@
-p{
-    font-size: 23px;
+*{
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 30px;
+}
+
+.fa-brands{
+    color: white;
+}
+
+nav p{
+    color: white;
+    display: inline;
+    width: 100%;
+    align-self: center;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 20px;
+}
+aside{
+    background-color: #373867;
+    color: white;
+    padding: 1.5vw  0 0 2vw;
+    width: 23%;
+    height: 100vh;
+    top: 0;
+    position: fixed;
+}
+nav{
+    background-color: #373867;
+    width: 77%;
+    margin-left: 23%;
+    height: 81px;
+    position: fixed;
+    padding-top: 20px;
+    padding-left: 2%;
+}
+nav div{
+    border-top: 2px solid white;
+    width: 96%;
+    margin-top: 15px;
+}
+ul{
+    display: inline;
+    margin-left: 64%;
+}
+nav ul li{
+    display: inline;
+    margin-left: 16px;
+}
+aside input{
+    width: 200px;
+    height: 25px;
+    background-color: #373867;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: white;
+}
+aside button{
+    background-color: #373867;
+    border: 0;
+    margin-bottom: 45px;
+}
+aside button .fa-magnifying-glass{
+    font-size: 22px;
+    color: rgba(255, 255, 255,0.5);
+}
+aside ul li{
+    margin-top: 10px;
+}
+.marg{
+    margin-bottom: 10px;
+}
+.short-hr{
+    border-top: 1.5px solid rgba(255, 255, 255,0.10);
+    width: 85%;
+    margin-top: 10px;
+}
+.menu-span{
+    font-weight: 700;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.marg2{
+    margin-bottom: 60px;
+}
+aside p{
+    margin: 25px 40px 50px 0;
+}
+.fa-envelope, .fa-house, .fa-phone{
+    font-size: 20px;
+}
+aside ol li:first-child{
+    text-decoration: underline;
+}
+aside ol li span{
+    margin-left: 10px;
+}
+aside ol li{
+    margin-top: 22px;
 }
