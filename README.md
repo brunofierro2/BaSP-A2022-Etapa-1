@@ -4,5 +4,12 @@
 1- access to the folder "Semana-01"
 
 2- open the file "index.html" on your browser
+
+## Week 01
+Structure and SEO of the site
+
+## Week 02
+Started adding CSS
+
 # Author:
         Bruno Fierro
