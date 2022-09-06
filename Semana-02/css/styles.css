@@ -1,5 +1,5 @@
 *{
-    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .fa-bars{
@@ -88,6 +88,9 @@ a{
     text-decoration: none;
     color: white;
 }
+a:hover{
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
 .marg2{
     margin-bottom: 55px;
 }
@@ -110,15 +113,14 @@ h1{
     font-size: 32px;
     padding:  230px  0px 20px 370px;
 }
-article p{
+.p-inicio{
     font-size: 20px;
     font-variant: small-caps;
     width: 840px;
     padding:  10px  60px 10px 370px;
-    opacity: 0.5;
-    
+    opacity: 0.5;    
 }
-article div img{
+.img-working{
     float: right;
     margin: 150px 50px 0 0;
     width: 474px;
@@ -138,10 +140,112 @@ article div img{
     color: rgba(0, 0, 0, 0.5);
     border-color: rgba(0, 0, 0, 0.5);   
     background-color: white; 
-    margin: 35px 1px 270px 370px;
+    margin: 35px 1px 220px 370px;
 }
 button:hover{
     background-color:  #373867;
     color: white;
     text-shadow: 0 0 20px white;
+}
+.h2-func{
+    font-size: 32px;
+    padding:  0px  0px 20px 370px;
+    margin-bottom: 70px;
+    margin-top: 130px;
+}
+.img-func{
+    width: 135px;
+    height: auto;
+    margin-left: 370px;
+    position: absolute;
+}
+.section-functionalities p{
+    font-size: 18px;
+    font-variant: small-caps;
+    opacity: 0.7;       
+    padding:  10px  60px 10px 370px;
+}
+.p-time{
+    margin-left: 150px;
+    width: 760px;
+}
+.report{
+    margin-top: -145px;
+    margin-left: 850px;
+}
+.p-report{
+    margin-top: -130px;
+    margin-left: 625px;
+    width: 780px;
+}
+.management{
+    margin-top: 120px;
+}
+.p-management{
+    margin-top: 120px;
+    margin-left: 140px;
+    width: 760px;
+}
+.roles{
+    margin-left: 850px;
+    margin-top: -145px;
+}
+.p-roles{
+    margin-top: -130px;
+    margin-left: 625px;
+    width: 790px;
+}
+.bold{
+    font-weight: 800;
+}
+.woman-working{
+    margin-top: 230px;
+    margin-left: 400px;
+    width: 280px;
+}
+.h2-trackgenix{
+    text-align: center;
+    margin-top: -240px;
+    margin-left: 220px;
+}
+.h2-trackgenix span{
+    font-size: 1.6em;
+}
+.why-trackgenix{
+    height: 82vh;
+    width: 400px;
+    margin-top: -270px;
+    margin-left: 970px;
+    border-left: 2px solid rgba(0, 0, 0, 0.5);
+}
+.why-trackgenix img, .why-trackgenix p{
+    margin-left: 30px;
+}
+.why-trackgenix p{
+    width: 270px;
+    margin-left: 140px;
+    font-variant: small-caps;
+    color: rgba(0, 0, 0, 0.7);
+}
+.why-trackgenix img{
+    width: 100px;
+}
+.man-running{
+    margin-top: 30px;
+}
+.p-running{
+    margin-top: -100px;
+    margin-bottom: 60px;
+}
+.p-work{
+    margin-top: -90px;
+    margin-bottom: 70px;
+}
+.p-representing{
+    margin-top: -90px;
+    margin-bottom: 75px;
+}
+.p-thinking{
+    margin-top: -95px;
+    margin-bottom: 60px;
 }
