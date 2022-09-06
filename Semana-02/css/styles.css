@@ -201,13 +201,13 @@ button:hover{
 }
 .woman-working{
     margin-top: 230px;
-    margin-left: 400px;
+    margin-left: 380px;
     width: 280px;
 }
 .h2-trackgenix{
     text-align: center;
     margin-top: -240px;
-    margin-left: 220px;
+    margin-left: 170px;
 }
 .h2-trackgenix span{
     font-size: 1.6em;
@@ -221,11 +221,11 @@ button:hover{
     border-left: 2px solid rgba(0, 0, 0, 0.5);
 }
 .why-trackgenix img, .why-trackgenix p{
-    margin-left: 30px;
+    margin-left: 50px;
 }
 .why-trackgenix p{
     width: 270px;
-    margin-left: 140px;
+    margin-left: 170px;
     font-variant: small-caps;
     color: rgba(0, 0, 0, 0.7);
 }
@@ -298,7 +298,7 @@ button:hover{
 form{
     margin-left: 930px;
     margin-top: -500px;
-    margin-bottom: 500px;
+    margin-bottom: 70px;
     width: 300px;
     display: block;
 }
@@ -340,5 +340,55 @@ textarea{
 .submit:hover{
     background-color: #c1c1df;
     color: #000000;
+}
+.h2-about{
+    margin-left: 430px;
+    font-size: 32px;
+}
+.img-hands{
+    margin-left: 420px;
+    margin-top: 30px;
+    width: 300px;
+}
+.h3-mission{
+    margin-top: -180px;
+    margin-left: 790px;
+    font-size: 24px;
+}
+.hr-mission{
+    width: 510px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    margin: 10px 0 20px 790px;
+}
+.p-mission{
+    width:580px;
+    margin-left: 790px;
+    margin-bottom: 100px;
+    color: rgba(0, 0, 0, 0.7);
+    font-variant: small-caps;
+    font-size: 18px;
+}
+.h3-history{
+    margin-left: 440px;
+    font-size: 24px;
+}
+.p-history{
+    width:620px;
+    margin-left: 440px;
+    margin-bottom: 150px;
+    color: rgba(0, 0, 0, 0.7);
+    font-variant: small-caps;
+    font-size: 18px;
+}
+.hr-history{
+    width: 510px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    margin: 10px 0 20px 440px;
+}
+.img-machines{
+    margin-left: 1070px;
+    margin-top: -320px;
+    position: absolute;
+    width: 300px;
 }
 
