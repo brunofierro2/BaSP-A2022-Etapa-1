@@ -1,48 +1,44 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
-
 .fa-bars{
     color: white;
     font-size: 30px;
 }
-
 .fa-brands{
     color: white;
 }
-
 nav p{
-    color: white;
     display: inline;
     width: 100%;
     align-self: center;
+    color: white;
     font-weight: 400;
     font-size: 24px;
     margin-left: 20px;
 }
 aside{
-    background-color: #373867;
-    color: white;
-    padding: 1.5vw  0 0 2vw;
     width: 23%;
     height: 100vh;
+    color: white;
+    background-color: #373867;
     top: 0;
     position: fixed;
     z-index: 400;
+    padding: 1.5vw  0 0 2vw;
 }
 nav{
-    background-color: #373867;
     width: 77%;
-    margin-left: 23%;
+    background-color: #373867;
     height: 81px;
     position: fixed;
-    padding-top: 20px;
-    padding-left: 2%;
     z-index: 500;
+    margin-left: 23%;
+    padding: 20px 0 0 2%;
 }
 nav div{
+    width: 1020px;
     border-top: 2px solid white;
-    width: 96%;
     margin-top: 15px;
 }
 ul{
@@ -56,10 +52,10 @@ nav ul li{
 aside input{
     width: 200px;
     height: 25px;
-    background-color: #373867;
     font-size: 16px;
-    border-radius: 5px;
     border-color: white;
+    background-color: #373867;
+    border-radius: 5px;
 }
 aside button{
     background-color: #373867;
@@ -77,12 +73,12 @@ aside ul li{
     margin-bottom: 10px;
 }
 .short-hr{
-    border-top: 1.5px solid rgba(255, 255, 255,0.10);
     width: 85%;
+    border-top: 1.5px solid rgba(255, 255, 255,0.10);
     margin-top: 10px;
 }
 .menu-span{
-    font-weight: 700;
+    font-weight: 800;
     display: block;
 }
 a{
@@ -115,37 +111,37 @@ h1{
     padding:  230px  0px 20px 370px;
 }
 .p-inicio{
+    width: 840px;
     font-size: 20px;
     font-variant: small-caps;
-    width: 840px;
-    padding:  10px  60px 10px 370px;
     opacity: 0.5;    
+    padding:  10px  60px 10px 370px;
 }
 .img-working{
-    float: right;
-    margin: 150px 50px 0 0;
     width: 474px;
     height: 460px;
+    float: right;
+    margin: 150px 50px 0 0;
 }
 .learnmore{
-    height: 34px;
     width: 124px;
+    height: 34px;
     left: 70px;
-    border-radius: 5px;
-    padding: 10px 24px 10px 24px;
     font-size: 12px;
     font-weight: 500;
     line-height: 14px;
-    letter-spacing: 0em;
     text-align: center;
+    letter-spacing: 0em;
     color: rgba(0, 0, 0, 0.5);
-    border-color: rgba(0, 0, 0, 0.5);   
     background-color: white; 
     margin: 35px 1px 220px 370px;
+    padding: 10px 24px 10px 24px;
+    border-color: rgba(0, 0, 0, 0.5);   
+    border-radius: 5px;
 }
 button:hover{
-    background-color:  #373867;
     color: white;
+    background-color:  #373867;
     text-shadow: 0 0 20px white;
 }
 .h2-func{
@@ -167,57 +163,48 @@ button:hover{
     padding:  10px  60px 10px 370px;
 }
 .p-time{
-    margin-left: 150px;
     width: 760px;
+    margin-left: 150px;
 }
 .report{
-    margin-top: -145px;
-    margin-left: 850px;
+    margin: -145px 0 0 850px;
 }
 .p-report{
-    margin-top: -130px;
-    margin-left: 625px;
     width: 780px;
+    margin: -130px 0 0 625px;
 }
 .management{
     margin-top: 120px;
 }
 .p-management{
-    margin-top: 120px;
-    margin-left: 140px;
+    margin: 120px 0 0 140px;
     width: 760px;
 }
 .roles{
-    margin-left: 850px;
-    margin-top: -145px;
+    margin: -145px 0 0 850px;
 }
 .p-roles{
-    margin-top: -130px;
-    margin-left: 625px;
     width: 790px;
+    margin: -130px 0 0 625px;
 }
 .bold{
     font-weight: 800;
 }
 .woman-working{
-    margin-top: 230px;
-    margin-left: 380px;
     width: 280px;
+    margin: 230px 0 0 380px;
 }
 .h2-trackgenix{
     text-align: center;
-    margin-top: -240px;
-    margin-left: 170px;
+    margin: -240px 0 0 170px;
 }
 .h2-trackgenix span{
     font-size: 1.6em;
 }
 .why-trackgenix{
-    height: 82vh;
     width: 400px;
-    margin-top: -270px;
-    margin-left: 970px;
-    margin-bottom: 280px;
+    height: 82vh;
+    margin: -270px 0 280px 970px;
     border-left: 2px solid rgba(0, 0, 0, 0.5);
 }
 .why-trackgenix img, .why-trackgenix p{
@@ -225,9 +212,9 @@ button:hover{
 }
 .why-trackgenix p{
     width: 270px;
-    margin-left: 170px;
-    font-variant: small-caps;
     color: rgba(0, 0, 0, 0.7);
+    font-variant: small-caps;
+    margin-left: 170px;
 }
 .why-trackgenix img{
     width: 100px;
@@ -236,124 +223,106 @@ button:hover{
     margin-top: 30px;
 }
 .p-running{
-    margin-top: -100px;
-    margin-bottom: 60px;
+    margin: -100px 0 60px 0;
 }
 .p-work{
-    margin-top: -90px;
-    margin-bottom: 70px;
+    margin: -90px 0 70px 0;
 }
 .p-representing{
-    margin-top: -90px;
-    margin-bottom: 75px;
+    margin: -90px 0 75px 0;
 }
 .p-thinking{
-    margin-top: -95px;
-    margin-bottom: 60px;
+    margin: -95px 0 60px 0;
 }
 .h2-love{
-    margin-bottom: 30px;
-    margin-left: 400px;
     font-size: 27px;
+    margin:0 0 30px 400px;
 }
 .messages{
-    margin-left: 470px;
-    margin-bottom: 50px;
+    margin: 0 0 50px 470px;
 }
 .heart{
-    margin-left: 23px;
-    margin-top: 20px;
     position: absolute;
+    margin: 20px 0 0 23px;
 }
 .message-delivered{
-    margin-left: 80px;
-    margin-top: -13px;
     position: absolute;
+    margin: -13px 0 0 80px;
 }
 .love-to-hear-section p{
-    color: rgba(0, 0, 0, 0.7);
-    font-variant: small-caps;
-    font-size: 20px;
     width: 360px;
-    margin-left: 410px;
-    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.7);
     text-align: center;
+    font-size: 20px;
+    font-variant: small-caps;
     line-height: 20px;
+    margin: 0 0 20px 410px;
 }
 .h2-get{
     font-size: 27px;
-    margin-left: 1000px;
-    margin-top: -405px;
-    margin-bottom: 520px;
+    margin: -405px 0 520px 1000px;
 }
 .hr-get{
-    border-top: 1.5px solid rgba(255, 255, 255,0.10);
-    position: absolute;
     width: 2px;
     height: 82vh;
-    margin-left: 900px;
-    margin-top: -650px;
+    position: absolute;
     background-color: rgba(0, 0, 0, 0.12);
+    border-top: 1.5px solid rgba(255, 255, 255,0.10);
+    margin: -650px 0 0 900px;
 }
 form{
-    margin-left: 930px;
-    margin-top: -500px;
-    margin-bottom: 70px;
     width: 300px;
     display: block;
+    margin: -500px 0 70px 930px;
 }
 label{
     display: block;
     margin-top: 20px;
 }
 form input{
-    margin-top: 10px;
-    margin-bottom: 10px;
     display: inline;
+    margin: 10px 0 10px 0;
 }
 .input-text{
-    height: 25px;
     width: 450px;
+    height: 25px;
     display: block;
     border-radius: 5px;
 }
 .input-radio{
-    margin-top: 5px;
     display: block;
     color: rgba(0, 0, 0, 0.7);
+    margin-top: 5px;
 }
 textarea{
-    margin-top: 10px;
     width: 450px;
     height: 65px;
     border-radius: 5px;
+    margin-top: 10px;
 }
 .submit{
-    margin-top: 40px;
-    margin-left: 200px;
-    background-color: #373867;
-    color: white;
     width: 100px;
     height: 25px;
+    color: white;
+    background-color: #373867;
     font-size: 16px;
+    margin: 40px 0 0 200px;
 }
 .submit:hover{
-    background-color: #c1c1df;
     color: #000000;
+    background-color: #c1c1df;
 }
 .h2-about{
-    margin-left: 430px;
     font-size: 32px;
+    margin-left: 430px;
 }
 .img-hands{
-    margin-left: 420px;
-    margin-top: 30px;
     width: 300px;
+    margin:30px 0 0 420px;
 }
 .h3-mission{
-    margin-top: -180px;
-    margin-left: 790px;
     font-size: 24px;
+    margin: -180px 0 0 790px;
 }
 .hr-mission{
     width: 510px;
@@ -362,23 +331,21 @@ textarea{
 }
 .p-mission{
     width:580px;
-    margin-left: 790px;
-    margin-bottom: 100px;
     color: rgba(0, 0, 0, 0.7);
-    font-variant: small-caps;
     font-size: 18px;
+    font-variant: small-caps;
+    margin:0 0 100px 790px;
 }
 .h3-history{
-    margin-left: 440px;
     font-size: 24px;
+    margin-left: 440px;
 }
 .p-history{
     width:620px;
-    margin-left: 440px;
-    margin-bottom: 150px;
     color: rgba(0, 0, 0, 0.7);
     font-variant: small-caps;
     font-size: 18px;
+    margin:0 0 210px 440px;
 }
 .hr-history{
     width: 510px;
@@ -386,9 +353,68 @@ textarea{
     margin: 10px 0 20px 440px;
 }
 .img-machines{
-    margin-left: 1070px;
-    margin-top: -320px;
     position: absolute;
     width: 300px;
+    margin: -390px 0 0 1070px;
 }
+footer{
+    width: 1050px;
+    height: 610px;
+    background-color: #dddde5;
+    padding-left: 30px;
+    margin-left: 350px;
+}
+.hr-footer1{
+    width: 980px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    padding-top: 25px;
+    margin: 0 0 45px 5px;
+}
+.h2-footer{
+    font-size: 32px;
+    margin: 0 0 20px 18px;
+}
+.h3-footer{
+    font-size: 16px;
+    margin-left: 20px;
+}
+footer ol li{
+    list-style: decimal;
+    margin:5px 0 5px 15px;
+}
+.ol-prod{
+    margin: -55px 0 0 530px;
+}
+.ol-bus{
+    margin: -108px 0 0 740px;
 
+}
+.ol-sup{
+    margin: -109px 0 0 880px;
+}
+ol div{
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+footer p{
+    font-size: 15px;
+    margin-top: 250px;
+}
+.black-icons{
+    color: black;
+    font-size: 30px;
+}
+footer ul li{
+    display: inline;
+    margin-left: 10px;
+}
+footer ul{
+    position: absolute;
+    margin: -40px 0 0 780px ;
+}
+.hr-footer2{
+    width: 980px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    padding-top: 25px;
+    margin: 0 0 160px -775px;
+}
