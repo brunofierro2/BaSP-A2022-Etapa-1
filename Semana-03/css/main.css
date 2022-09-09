@@ -1,0 +1,42 @@
+main{
+    display: flex;
+}
+h1{
+    
+}
+.p-inicio{
+    /* width: 840px; */
+    font-size: 20px;
+    font-variant: small-caps;
+    opacity: 0.5;    
+/*     padding:  10px  60px 10px 370px;
+ */}
+.img-working{
+    width: 358px;
+    /* width: 474px;
+    height: 460px; */
+    float: right;
+    margin: 150px 50px 0 0;
+}
+.learnmore{
+    display: none;
+    width: 124px;
+    height: 34px;
+    left: 70px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: white; 
+    margin: 35px 1px 220px 370px;
+    padding: 10px 24px 10px 24px;
+    border-color: rgba(0, 0, 0, 0.5);   
+    border-radius: 5px;
+}
+button:hover{
+    color: white;
+    background-color:  #373867;
+    text-shadow: 0 0 20px white;
+}

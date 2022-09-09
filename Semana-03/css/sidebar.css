@@ -1,0 +1,55 @@
+aside{
+    display: none;
+    width: 23%;
+    height: 100vh;
+    color: white;
+    background-color: #373867;
+    top: 0;
+    position: fixed;
+    z-index: 400;
+    padding: 1.5vw  0 0 2vw;
+}
+aside input{
+    width: 200px;
+    height: 25px;
+    font-size: 16px;
+    border-color: white;
+    background-color: #373867;
+    border-radius: 5px;
+}
+aside button{
+    background-color: #373867;
+    border: 0;
+    margin-bottom: 45px;
+}
+aside button .fa-magnifying-glass{
+    font-size: 22px;
+    color: rgba(255, 255, 255,0.5);
+}
+aside ul li{
+    margin-top: 10px;
+}
+.short-hr{
+    width: 85%;
+    border-top: 1.5px solid rgba(255, 255, 255,0.10);
+    margin-top: 10px;
+}
+.menu-span{
+    font-weight: 800;
+    display: block;
+}
+aside p{
+    margin: 25px 15px 50px 0px;
+}
+.fa-envelope, .fa-house, .fa-phone{
+    font-size: 20px;
+}
+aside ol li:first-child{
+    text-decoration: underline;
+}
+aside ol li span{
+    margin-left: 10px;
+}
+aside ol li{
+    margin-top: 20px;
+}

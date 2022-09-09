@@ -9,7 +9,10 @@
 Structure and SEO of the site
 
 ## Week 02
-Started adding CSS
+Started adding CSS without using flexbox nor grid
+
+## Week 03
+Started with the responsive of the page, implementing both media queries and flexbox
 
 # Author:
         Bruno Fierro

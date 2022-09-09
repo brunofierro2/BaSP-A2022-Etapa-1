@@ -1,0 +1,294 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.marg{
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.marg2{
+    margin-bottom: 55px;
+}
+
+
+.h2-func{
+    font-size: 32px;
+    padding:  0px  0px 20px 370px;
+    margin-bottom: 70px;
+    margin-top: 130px;
+}
+.img-func{
+    width: 135px;
+    height: auto;
+    margin-left: 370px;
+    position: absolute;
+}
+.section-functionalities p{
+    font-size: 18px;
+    font-variant: small-caps;
+    opacity: 0.7;       
+    padding:  10px  60px 10px 370px;
+}
+.p-time{
+    width: 760px;
+    margin-left: 150px;
+}
+.report{
+    margin: -145px 0 0 850px;
+}
+.p-report{
+    width: 780px;
+    margin: -130px 0 0 625px;
+}
+.management{
+    margin-top: 120px;
+}
+.p-management{
+    margin: 120px 0 0 140px;
+    width: 760px;
+}
+.roles{
+    margin: -145px 0 0 850px;
+}
+.p-roles{
+    width: 790px;
+    margin: -130px 0 0 625px;
+}
+.bold{
+    font-weight: 800;
+}
+.woman-working{
+    width: 280px;
+    margin: 230px 0 0 380px;
+}
+.h2-trackgenix{
+    text-align: center;
+    margin: -240px 0 0 170px;
+}
+.h2-trackgenix span{
+    font-size: 1.6em;
+}
+.why-trackgenix{
+    width: 400px;
+    height: 82vh;
+    margin: -270px 0 280px 970px;
+    border-left: 2px solid rgba(0, 0, 0, 0.5);
+}
+.why-trackgenix img, .why-trackgenix p{
+    margin-left: 50px;
+}
+.why-trackgenix p{
+    width: 270px;
+    color: rgba(0, 0, 0, 0.7);
+    font-variant: small-caps;
+    margin-left: 170px;
+}
+.why-trackgenix img{
+    width: 100px;
+}
+.man-running{
+    margin-top: 30px;
+}
+.p-running{
+    margin: -100px 0 60px 0;
+}
+.p-work{
+    margin: -90px 0 70px 0;
+}
+.p-representing{
+    margin: -90px 0 75px 0;
+}
+.p-thinking{
+    margin: -95px 0 60px 0;
+}
+.h2-love{
+    font-size: 27px;
+    margin:0 0 30px 400px;
+}
+.messages{
+    margin: 0 0 50px 470px;
+}
+.heart{
+    position: absolute;
+    margin: 20px 0 0 23px;
+}
+.message-delivered{
+    position: absolute;
+    margin: -13px 0 0 80px;
+}
+.love-to-hear-section p{
+    width: 360px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-size: 20px;
+    font-variant: small-caps;
+    line-height: 20px;
+    margin: 0 0 20px 410px;
+}
+.h2-get{
+    font-size: 27px;
+    margin: -405px 0 520px 1000px;
+}
+.hr-get{
+    width: 2px;
+    height: 82vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.12);
+    border-top: 1.5px solid rgba(255, 255, 255,0.10);
+    margin: -650px 0 0 900px;
+}
+form{
+    width: 300px;
+    display: block;
+    margin: -500px 0 70px 930px;
+}
+label{
+    display: block;
+    margin-top: 20px;
+}
+form input{
+    display: inline;
+    margin: 10px 0 10px 0;
+}
+.input-text{
+    width: 450px;
+    height: 25px;
+    display: block;
+    border-radius: 5px;
+}
+.input-radio{
+    display: block;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 5px;
+}
+textarea{
+    width: 450px;
+    height: 65px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.submit{
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: #373867;
+    font-size: 16px;
+    margin: 40px 0 0 200px;
+}
+.submit:hover{
+    color: #000000;
+    background-color: #c1c1df;
+}
+.h2-about{
+    font-size: 32px;
+    margin-left: 430px;
+}
+.img-hands{
+    width: 300px;
+    margin:30px 0 0 420px;
+}
+.h3-mission{
+    font-size: 24px;
+    margin: -180px 0 0 790px;
+}
+.hr-mission{
+    width: 510px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    margin: 10px 0 20px 790px;
+}
+.p-mission{
+    width:580px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    font-variant: small-caps;
+    margin:0 0 100px 790px;
+}
+.h3-history{
+    font-size: 24px;
+    margin-left: 440px;
+}
+.p-history{
+    width:620px;
+    color: rgba(0, 0, 0, 0.7);
+    font-variant: small-caps;
+    font-size: 18px;
+    margin:0 0 210px 440px;
+}
+.hr-history{
+    width: 510px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    margin: 10px 0 20px 440px;
+}
+.img-machines{
+    position: absolute;
+    width: 300px;
+    margin: -390px 0 0 1070px;
+}
+footer{
+    width: 1050px;
+    height: 610px;
+    background-color: #dddde5;
+    padding-left: 30px;
+    margin-left: 350px;
+}
+.hr-footer1{
+    width: 980px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    padding-top: 25px;
+    margin: 0 0 45px 5px;
+}
+.h2-footer{
+    font-size: 32px;
+    margin: 0 0 20px 18px;
+}
+.h3-footer{
+    font-size: 16px;
+    margin-left: 20px;
+}
+footer ol li{
+    list-style: decimal;
+    margin:5px 0 5px 15px;
+}
+.ol-prod{
+    margin: -55px 0 0 530px;
+}
+.ol-bus{
+    margin: -108px 0 0 740px;
+
+}
+.ol-sup{
+    margin: -109px 0 0 880px;
+}
+ol div{
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+footer p{
+    font-size: 15px;
+    margin-top: 250px;
+}
+.black-icons{
+    color: black;
+    font-size: 30px;
+}
+footer ul li{
+    display: inline;
+    margin-left: 10px;
+}
+footer ul{
+    position: absolute;
+    margin: -40px 0 0 780px ;
+}
+.hr-footer2{
+    width: 980px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    padding-top: 25px;
+    margin: 0 0 160px -775px;
+}

@@ -1,0 +1,41 @@
+.fa-bars {
+    color: white;
+    font-size: 30px;
+}
+.fa-brands {
+    color: white;
+}
+nav p {
+    display: inline;
+    width: 100%;
+    align-self: center;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 20px;
+}
+nav {
+    width: 100%;
+    /* width: 77%; */
+    /* margin-left: 23%; */
+    background-color: #373867;
+    height: 81px;
+    position: fixed;
+    z-index: 500;
+    padding: 20px 0 0 2%;
+}
+nav div {
+    width: 98%;
+    border-top: 2px solid white;
+    margin-top: 15px;
+}
+ul {
+    display: none;
+    /*  display: inline;
+    margin-left: 64%; */
+}
+nav ul li {
+    margin-left: 16px;
+    display: none;
+    /* display: inline; */
+}
