@@ -22,7 +22,7 @@ nav {
     height: 81px;
     position: fixed;
     z-index: 500;
-    padding: 20px 0 0 2%;
+    padding: 20px 0 0 13px;
 }
 nav div {
     width: 98%;
