@@ -18,52 +18,7 @@ a:hover{
 }
 
 
-.h2-func{
-    font-size: 32px;
-    padding:  0px  0px 20px 370px;
-    margin-bottom: 70px;
-    margin-top: 130px;
-}
-.img-func{
-    width: 135px;
-    height: auto;
-    margin-left: 370px;
-    position: absolute;
-}
-.section-functionalities p{
-    font-size: 18px;
-    font-variant: small-caps;
-    opacity: 0.7;       
-    padding:  10px  60px 10px 370px;
-}
-.p-time{
-    width: 760px;
-    margin-left: 150px;
-}
-.report{
-    margin: -145px 0 0 850px;
-}
-.p-report{
-    width: 780px;
-    margin: -130px 0 0 625px;
-}
-.management{
-    margin-top: 120px;
-}
-.p-management{
-    margin: 120px 0 0 140px;
-    width: 760px;
-}
-.roles{
-    margin: -145px 0 0 850px;
-}
-.p-roles{
-    width: 790px;
-    margin: -130px 0 0 625px;
-}
-.bold{
-    font-weight: 800;
-}
+
 .woman-working{
     width: 280px;
     margin: 230px 0 0 380px;
