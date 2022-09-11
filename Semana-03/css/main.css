@@ -2,17 +2,17 @@ main{
     padding: 0 13px;
 }
 .article-home{
-    width: 100%;
-    height: 92vh;
     display: flex;
+    align-content: space-between;
+    width: 100%;
+    height: 90vh;
     flex-wrap: wrap;
-    align-content: space-around;
-    padding-top: 97px;      
+    padding-top: 102px;
 }
 h1{
     width: 100%;
     font-size: 24px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     border-bottom: 2px solid #C4C4C4;
 }
 .p-inicio{
@@ -21,7 +21,8 @@ h1{
     margin: auto;
     font-size: 18px;
     line-height: 24px;
-    opacity: 0.7;
+/*     opacity: 0.7;
+ */
     /* font-size: 20px;
     font-variant: small-caps;
     opacity: 0.5;     */
@@ -29,6 +30,7 @@ h1{
  */}
 .img-working{
     width: 358px;
+    height: 223px;
     margin: auto;
     /* width: 474px;
     height: 460px; */
@@ -58,8 +60,8 @@ button:hover{
 .h2-func{
     display: none;
     font-size: 32px;
-    padding:  0px  0px 20px 370px;
-    margin-bottom: 70px;
+/*     padding:  0px  0px 20px 370px;
+ */    margin-bottom: 70px;
     margin-top: 130px;
 }
 .section-functionalities{
@@ -68,10 +70,10 @@ button:hover{
     align-items: center;
     width: 100%;
     height: 720px;
-    margin-top: 70px;
+    margin: 90px 0;
     background-color: #DDDDE5;
-    padding: 0 15px;
-}
+/*     padding: 0 15px;
+ */}
 .no-reverse{
     display: flex;
     justify-content: space-between;
@@ -88,7 +90,7 @@ button:hover{
     height: 101px;
 }
 .section-functionalities p{
-    width: 218px;
+    width: 214px;
     font-size: 16px;
 /*     font-variant: small-caps;
  */    line-height: 24px;
@@ -98,4 +100,68 @@ button:hover{
  */}
 .bold{
     font-weight: 800;
+}
+.why-use{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 79vh;
+    margin-top: 10vh;    
+}
+.woman-working{
+    width: 158px;
+    height: 224px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+/*     width: 280px;
+ */}
+.h2-trackgenix{
+    font-size: 20px;
+    text-align: center;
+}
+.h2-trackgenix span{
+    font-size: 32px;
+}
+.why-trackgenix-hr{
+    /*  width: 40px;
+    height: 82vh; */
+    width: 98%;
+    border-top: 2px solid #383768;
+    margin-bottom: 30px;
+    /* border-left: 2px solid rgba(0, 0, 0, 0.5);  */
+}
+.why-trackgenix{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40vh;
+}
+.why-trackgenix img{
+    width: 48px;
+    height: 48px;
+}
+.why-trackgenix p{
+    width: 270px;
+    color: rgba(0, 0, 0, 0.8);
+}
+/* 
+.man-running{
+}
+.p-running{
+}
+.p-work{
+}
+.p-representing{
+}
+*/
+.man-thinking{
+    flex-direction: row;
+} 
+.why-trackgenix-hr-2{
+    width: 98%;
+    border-top: 2px solid #C4C4C4;
+    margin-bottom: 30px;
+    /* border-left: 2px solid rgba(0, 0, 0, 0.5);  */
 }

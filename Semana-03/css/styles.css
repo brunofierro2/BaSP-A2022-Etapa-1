@@ -1,7 +1,9 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
-
+html{
+    width: 100%;
+}
 .marg{
     margin-bottom: 10px;
 }
@@ -19,51 +21,8 @@ a:hover{
 
 
 
-.woman-working{
-    width: 280px;
-    margin: 230px 0 0 380px;
-}
-.h2-trackgenix{
-    text-align: center;
-    margin: -240px 0 0 170px;
-}
-.h2-trackgenix span{
-    font-size: 1.6em;
-}
-.why-trackgenix{
-    width: 400px;
-    height: 82vh;
-    margin: -270px 0 280px 970px;
-    border-left: 2px solid rgba(0, 0, 0, 0.5);
-}
-.why-trackgenix img, .why-trackgenix p{
-    margin-left: 50px;
-}
-.why-trackgenix p{
-    width: 270px;
-    color: rgba(0, 0, 0, 0.7);
-    font-variant: small-caps;
-    margin-left: 170px;
-}
-.why-trackgenix img{
-    width: 100px;
-}
-.man-running{
-    margin-top: 30px;
-}
-.p-running{
-    margin: -100px 0 60px 0;
-}
-.p-work{
-    margin: -90px 0 70px 0;
-}
-.p-representing{
-    margin: -90px 0 75px 0;
-}
-.p-thinking{
-    margin: -95px 0 60px 0;
-}
-.h2-love{
+
+/* .h2-love{
     font-size: 27px;
     margin:0 0 30px 400px;
 }
@@ -246,4 +205,4 @@ footer ul{
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
     padding-top: 25px;
     margin: 0 0 160px -775px;
-}
+} */
