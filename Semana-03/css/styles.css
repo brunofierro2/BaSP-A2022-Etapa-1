@@ -20,51 +20,7 @@ a:hover{
 }
 
 /* 
-.h2-about{
-    font-size: 32px;
-    margin-left: 430px;
-}
-.img-hands{
-    width: 300px;
-    margin:30px 0 0 420px;
-}
-.h3-mission{
-    font-size: 24px;
-    margin: -180px 0 0 790px;
-}
-.hr-mission{
-    width: 510px;
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    margin: 10px 0 20px 790px;
-}
-.p-mission{
-    width:580px;
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 18px;
-    font-variant: small-caps;
-    margin:0 0 100px 790px;
-}
-.h3-history{
-    font-size: 24px;
-    margin-left: 440px;
-}
-.p-history{
-    width:620px;
-    color: rgba(0, 0, 0, 0.7);
-    font-variant: small-caps;
-    font-size: 18px;
-    margin:0 0 210px 440px;
-}
-.hr-history{
-    width: 510px;
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    margin: 10px 0 20px 440px;
-}
-.img-machines{
-    position: absolute;
-    width: 300px;
-    margin: -390px 0 0 1070px;
-}
+
 footer{
     width: 1050px;
     height: 610px;
