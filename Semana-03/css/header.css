@@ -29,7 +29,7 @@ nav div {
     border-top: 2px solid white;
     margin-top: 15px;
 }
-ul {
+header ul {
     display: none;
     /*  display: inline;
     margin-left: 64%; */
