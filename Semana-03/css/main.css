@@ -1,318 +1,397 @@
-main{
-    padding: 0 13px;
+main {
+  padding: 0 13px;
 }
-.section-home{
-    display: flex;
-    align-content: space-between;
-    width: 100%;
-    height: 90vh;
-    flex-wrap: wrap;
-    padding-top: 102px;
+
+.section-home {
+  display: flex;
+  align-content: space-between;
+  width: 100%;
+  height: 90vh;
+  flex-wrap: wrap;
+  padding-top: 102px;
 }
-h1{
-    width: 100%;
-    font-size: 24px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #C4C4C4;
+
+h1 {
+  width: 100%;
+  font-size: 24px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #c4c4c4;
 }
-.p-inicio{
-    /* width: 840px; */
-    width: 272px;
-    margin: auto;
-    font-size: 18px;
-    line-height: 24px;
-/*     opacity: 0.7;
- */
-    /* font-size: 20px;
-    font-variant: small-caps;
-    opacity: 0.5;     */
-    /*     padding:  10px  60px 10px 370px;
- */}
-.img-working{
-    width: 358px;
-    height: 223px;
-    margin: auto;
-    /* width: 474px;
-    height: 460px; */
+
+.p-inicio {
+  width: 272px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 24px;
+  opacity: 0.7;
 }
-.learnmore{
-    display: none;
-    width: 124px;
-    height: 34px;
-    left: 70px;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 14px;
-    text-align: center;
-    letter-spacing: 0em;
-    color: rgba(0, 0, 0, 0.5);
-    background-color: white; 
-    margin: 35px 1px 220px 370px;
-    padding: 10px 24px 10px 24px;
-    border-color: rgba(0, 0, 0, 0.5);   
-    border-radius: 5px;
+
+.img-working {
+  width: 358px;
+  height: 223px;
+  margin: auto;
 }
-button:hover{
-    color: white;
-    background-color:  #373867;
-    text-shadow: 0 0 20px white;
+
+.learnmore {
+  width: 100px;
+  height: 35px;
+  /*  width: 124px;
+    height: 34px; */
+  margin: auto;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: white;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
-.h2-func{
-    display: none;
-    font-size: 32px;
-/*     padding:  0px  0px 20px 370px;
- */    margin-bottom: 70px;
-    margin-top: 130px;
+
+button:hover {
+  color: white;
+  background-color: #373867;
+  text-shadow: 0 0 20px white;
 }
-.article-functionalities{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-    height: 720px;
-    margin: 90px 0;
-    background-color: #DDDDE5;
-/*     padding: 0 15px;
- */}
-.no-reverse{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+
+.h2-func {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 130px;
 }
-.row-reverse{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row-reverse;
-    width: 100%;
+.hr-func{
+  margin-top: 20px;
+  border: 1px solid #c4c4c4;
 }
-.img-func{
-    width: 90px;
-    height: 91px;
+.article-functionalities {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 720px;
+  margin: 40px 0;
+  background-color: #dddde5;
 }
-.article-functionalities p{
-    width: 214px;
-    font-size: 16px;
-/*     font-variant: small-caps;
- */    line-height: 24px;
-/*     opacity: 0.7;       
- */
-/*     padding:  10px  60px 10px 370px;
- */}
-.bold{
-    font-weight: 800;
+
+.no-reverse {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
-.why-use{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 79vh;
-    margin-top: 10vh;    
+
+.row-reverse {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  width: 100%;
 }
-.woman-working{
-    width: 158px;
-    height: 224px;
-    border-radius: 8px;
-    margin-bottom: 30px;
-/*     width: 280px;
- */}
-.h2-trackgenix{
-    font-size: 20px;
-    text-align: center;
+
+.img-func {
+  width: 90px;
+  height: 91px;
 }
-.h2-trackgenix span{
-    font-size: 32px;
+
+.article-functionalities p {
+  width: 214px;
+  font-size: 16px;
+  line-height: 24px;
 }
-.why-trackgenix-hr{
-    /*  width: 40px;
+
+.why-use {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 79vh;
+  margin-top: 10vh;
+}
+
+.woman-working {
+  width: 158px;
+  height: 224px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  /*  width: 280px; */
+}
+
+.h2-trackgenix {
+  font-size: 20px;
+  text-align: center;
+}
+
+.h2-trackgenix span {
+  font-size: 32px;
+}
+
+.why-trackgenix-hr {
+  /*  width: 40px;
     height: 82vh; */
-    width: 98%;
-    border-top: 2px solid #383768;
-    margin-bottom: 30px;
-    /* border-left: 2px solid rgba(0, 0, 0, 0.5);  */
+  width: 98%;
+  border-top: 2px solid #c4c4c4;
+  margin-bottom: 30px;
 }
-.why-trackgenix{
+
+.why-trackgenix {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50vh;
+}
+
+.why-trackgenix img {
+  width: 48px;
+  height: 48px;
+}
+
+.why-trackgenix p {
+  width: 270px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.man-thinking {
+  flex-direction: row;
+}
+
+.why-trackgenix-hr-2 {
+  width: 98%;
+  border-top: 2px solid #c4c4c4;
+  margin-bottom: 30px;
+  /* border-left: 2px solid #C4C4C4;  */
+}
+
+.love-to-hear-section {
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+  height: 85vh;
+  margin-top: 80px;
+}
+
+.h2-love {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.emojis {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.messages {
+  width: 41px;
+  height: 40px;
+}
+
+.heart {
+  width: 25px;
+  height: 25px;
+}
+
+.message-delivered {
+  width: 51px;
+  height: 44px;
+}
+
+.love-to-hear-section p {
+  display: none;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-size: 20px;
+  font-variant: small-caps;
+  line-height: 20px;
+  /*     width: 360px; */
+}
+
+.h2-get {
+  display: none;
+  font-size: 27px;
+}
+
+.hr-get {
+  width: 2px;
+  height: 82vh;
+  position: absolute;
+  /* background-color: rgba(0, 0, 0, 0.12);
+    border-top: 1.5px solid #C4C4C4; */
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+  width: 288px;
+  /*     width: 300px; */
+  height: 70vh;
+}
+
+label {
+  font-size: 14px;
+  text-align: start;
+  width: 100%;
+  font-weight: 800;
+}
+
+form input {
+  display: inline;
+  margin: 10px 0 10px 0;
+}
+
+.input-text {
+  /*     width: 450px; */
+  width: 288px;
+  height: 25px;
+  display: block;
+  margin-top: -10px;
+  border-radius: 5px;
+}
+
+.input-radio {
+  display: block;
+  width: 200px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 10px;
+  padding-left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 259px;
+  height: 126px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: block;
+}
+
+.submit {
+  width: 75px;
+  height: 25px;
+  color: white;
+  background-color: #373867;
+  font-size: 12px;
+}
+
+.submit:hover {
+  color: #000000;
+  background-color: #c1c1df;
+}
+
+.about-section {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 85vh;
+  margin-top: 7vh;
+}
+
+.h2-about {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.hr-mission {
+  width: 98%;
+  border-top: 2px solid #c4c4c4;
+}
+
+.h3-mission {
+  width: 100%;
+  text-align: right;
+  font-size: 16px;
+}
+
+.img-hands {
+  width: 137px;
+  height: 133px;
+  margin-top: 8px;
+}
+
+.p-mission {
+  width: 196px;
+  color: rgba(0, 0, 0, 0.82);
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.h3-history {
+  width: 100%;
+  font-size: 16px;
+}
+
+.p-history {
+  width: 200px;
+  color: rgba(0, 0, 0, 0.82);
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.img-machines {
+  width: 137px;
+  height: 119px;
+}
+
+/* Tablet Responsive */
+@media screen and (min-width: 768px) {
+  .section-home {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    align-content: space-around;
     width: 100%;
-    height: 50vh;
-}
-.why-trackgenix img{
-    width: 48px;
-    height: 48px;
-}
-.why-trackgenix p{
-    width: 270px;
-    color: rgba(0, 0, 0, 0.8);
-}
-.man-thinking{
-    flex-direction: row;
-} 
-.why-trackgenix-hr-2{
-    width: 98%;
-    border-top: 2px solid #C4C4C4;
-    margin-bottom: 30px;
-    /* border-left: 2px solid rgba(0, 0, 0, 0.5);  */
-}
-.love-to-hear-section{
-    display: flex;
-    justify-content: center;
-    align-content: space-evenly;
-    flex-wrap: wrap;
-    height: 85vh;
-    margin-top: 80px;
-}
-.h2-love{
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
-}
-.emojis{
-    display: flex;
-    flex-wrap: wrap;
+    height: 95vh;
+    padding-top: 142px;
+  }
+  h1{
     width: 50%;
-    justify-content: space-around;
-    align-items: center;
-}
-.messages{
-    width: 41px;
+    height: 100px;
+    font-size: 32px;
+    padding-left: 5vw;
+    margin-top: 5vh;
+    border-bottom: none;
+  }
+  .learnmore {
+    width: 124px;
     height: 40px;
-}
-.heart{
-    width: 25px;
-    height: 25px;
+    margin: -15vh 0 0 5vw;
+  }
+    .img-working {
+      width: 719px;
+      height: 503px;
+      margin: auto;
+    }
+    .p-inicio {
+      width: 349px;
+      height: 269px;
+      font-size: 20px;
+      line-height: 28.5px;
+      margin-top: 5vh;
+      margin-left: -10px;
+    }
+    .h2-func {
+      font-size: 32px;
+      text-align: center;
+      margin-bottom: 0px;
+      margin-top: 130px;
+    }
+    .article-functionalities {
+      height: 738px;
+    }
+    .img-func {
+      width: 140px;
+      height: 140px;
+    }
+    .article-functionalities p {
+      width: 407px;
+      font-size: 19px;
+      line-height: 28.5px;
+      align-self: center;
+    }
 
-}
-.message-delivered{
-    width: 51px;
-    height: 44px;
-
-}
-.love-to-hear-section p{
-/*     width: 360px;
- */
-    display: none;
-    color: rgba(0, 0, 0, 0.7);
-    text-align: center;
-    font-size: 20px;
-    font-variant: small-caps;
-    line-height: 20px;
-}
-.h2-get{
-    display: none;
-    font-size: 27px;
-}
-.hr-get{
-    width: 2px;
-    height: 82vh;
-    position: absolute;
-    /* background-color: rgba(0, 0, 0, 0.12);
-    border-top: 1.5px solid rgba(255, 255, 255,0.10); */
-}
-form{
-/*     width: 300px;
- */    
-    display: flex;
-    justify-content: center;
-    align-content: space-around;
-    flex-wrap: wrap;
-    width: 288px;
-    height: 70vh;
-}
-label{
-    font-size: 14px;
-    text-align: start;
-    width: 100%;
-    font-weight: 800;
-}
-form input{
-    display: inline;
-    margin: 10px 0 10px 0;
-}
-.input-text{
-/*     width: 450px;
- */ 
-    width: 288px;   
-    height: 25px;
-    display: block;
-    margin-top: -10px;
-    border-radius: 5px;
-}
-.input-radio{
-    display: block;
-    width: 200px;
-    color: rgba(0, 0, 0, 0.7);
-    margin-top: 10px;
-    padding-left:  15px;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-textarea{
-    width: 259px;
-    height: 126px;
-    border-radius: 5px;
-    margin-top: 10px;
-    display: block;
-}
-.submit{
-    width: 75px;
-    height: 25px;
-    color: white;
-    background-color: #373867;
-    font-size: 12px;
-}
-.submit:hover{
-    color: #000000;
-    background-color: #c1c1df;
-}
-.about-section{
-    display: flex;
-    align-content: space-around;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    height: 90vh;
-    margin-top: 7vh;
-}
-.h2-about{
-    font-size: 18px;
-    width: 100%;
-}
-.hr-mission{
-    width: 244px;
-    border-top: 1px solid #C4C4C4;
-}
-.h3-mission{
-    font-size: 16px;
-    margin-top: -8px;
-}
-.img-hands{
-    width: 137px;
-    height: 133px;
-    margin-top: 8px;
-}
-.p-mission{
-    width:196px;
-    color: rgba(0, 0, 0, 0.82);
-    font-size: 16px;
-    line-height: 26px;
-}
-.h3-history{
-    display: inline;
-    font-size: 16px;
-}
-.p-history{
-    width:200px;
-    color: rgba(0, 0, 0, 0.82);
-    font-size: 18px;
-    line-height: 26px;
-}
-.hr-history{
-    width: 244px;
-    border-top: 1px solid  #C4C4C4;
-    margin-top: 7px;
-}
-.img-machines{
-    width: 137px;
-    height: 119px;
 }

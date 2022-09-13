@@ -1,13 +1,6 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
-html{
-    width: 100%;
-}
-.marg{
-    margin-bottom: 10px;
-}
-
 a{
     text-decoration: none;
     color: white;
@@ -15,7 +8,8 @@ a{
 a:hover{
     text-shadow: 0 0 10px rgb(255, 255, 255);
 }
-.marg2{
-    margin-bottom: 55px;
+
+.bold{
+    font-weight: 800;
 }
 

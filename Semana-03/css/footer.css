@@ -45,9 +45,13 @@ ol div{
     font-size: 12px;
     font-weight: 800;
 }
+footer ul{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
 footer ul li{
     display: inline;
-    margin-left: 5px;
 }
 footer p{
     font-size: 10px;

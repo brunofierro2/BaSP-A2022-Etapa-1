@@ -34,6 +34,12 @@ aside ul li{
     border-top: 1.5px solid rgba(255, 255, 255,0.10);
     margin-top: 10px;
 }
+.marg{
+    margin-bottom: 10px;
+}
+.marg2{
+    margin-bottom: 55px;
+}
 .menu-span{
     font-weight: 800;
     display: block;
