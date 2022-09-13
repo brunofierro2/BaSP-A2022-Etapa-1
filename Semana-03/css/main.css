@@ -10,7 +10,13 @@ main {
   flex-wrap: wrap;
   padding-top: 102px;
 }
-
+.art-home{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 100%;
+  height: 40vh;
+}
 h1 {
   width: 100%;
   font-size: 24px;
@@ -35,8 +41,6 @@ h1 {
 .learnmore {
   width: 100px;
   height: 35px;
-  /*  width: 124px;
-    height: 34px; */
   margin: auto;
   font-size: 14px;
   font-weight: 500;
@@ -345,7 +349,7 @@ textarea {
   .learnmore {
     width: 124px;
     height: 40px;
-    margin: -15vh 0 0 5vw;
+    margin: -22vh 0 0 5vw;
   }
   .img-working {
     width: 719px;
@@ -507,5 +511,41 @@ textarea {
     width: 215px;
     height: 149px;
   }
-
+}
+@media screen and (min-width: 1024px){
+  main{
+    margin-left: 23%;
+  }
+  .img-working {
+    width: 470px;
+    height: 460px;
+  }
+  .section-home {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .art-home{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 40%;
+    height: 50vh;
+  }
+  h1 {
+    width: 100%;
+    font-size: 24px;
+    padding-bottom: 20px;
+    border-bottom: none;
+  }
+  .p-inicio {
+    width: 272px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 0.7;
+  }
+  .learnmore {
+    margin: auto ;
+  }
 }

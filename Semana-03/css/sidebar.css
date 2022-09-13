@@ -59,3 +59,17 @@ aside ol li span{
 aside ol li{
     margin-top: 20px;
 }
+
+@media screen and (min-width: 1024px){
+    aside{
+        display: inline;
+        width: 23%;
+        height: 100vh;
+        color: white;
+        background-color: #373867;
+        top: 0;
+        position: fixed;
+        z-index: 400;
+        padding: 1.5vw  0 0 2vw;
+    }
+}
