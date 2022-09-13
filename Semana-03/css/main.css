@@ -59,7 +59,7 @@ button:hover {
   margin-bottom: 0px;
   margin-top: 130px;
 }
-.hr-func{
+.hr-func {
   margin-top: 20px;
   border: 1px solid #c4c4c4;
 }
@@ -111,7 +111,6 @@ button:hover {
   height: 224px;
   border-radius: 8px;
   margin-bottom: 30px;
-  /*  width: 280px; */
 }
 
 .h2-trackgenix {
@@ -123,20 +122,18 @@ button:hover {
   font-size: 32px;
 }
 
-.why-trackgenix-hr {
-  /*  width: 40px;
-    height: 82vh; */
-  width: 98%;
-  border-top: 2px solid #c4c4c4;
-  margin-bottom: 30px;
-}
-
 .why-trackgenix {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
   height: 50vh;
+}
+
+.why-trackgenix-hr {
+  width: 98%;
+  border-top: 2px solid #c4c4c4;
+  margin-bottom: 30px;
 }
 
 .why-trackgenix img {
@@ -157,7 +154,6 @@ button:hover {
   width: 98%;
   border-top: 2px solid #c4c4c4;
   margin-bottom: 30px;
-  /* border-left: 2px solid #C4C4C4;  */
 }
 
 .love-to-hear-section {
@@ -227,7 +223,6 @@ form {
   align-content: space-around;
   flex-wrap: wrap;
   width: 288px;
-  /*     width: 300px; */
   height: 70vh;
 }
 
@@ -244,7 +239,6 @@ form input {
 }
 
 .input-text {
-  /*     width: 450px; */
   width: 288px;
   height: 25px;
   display: block;
@@ -348,7 +342,7 @@ textarea {
     height: 95vh;
     padding-top: 142px;
   }
-  h1{
+  h1 {
     width: 50%;
     height: 100px;
     font-size: 32px;
@@ -361,37 +355,137 @@ textarea {
     height: 40px;
     margin: -15vh 0 0 5vw;
   }
-    .img-working {
-      width: 719px;
-      height: 503px;
-      margin: auto;
-    }
-    .p-inicio {
-      width: 349px;
-      height: 269px;
-      font-size: 20px;
-      line-height: 28.5px;
-      margin-top: 5vh;
-      margin-left: -10px;
-    }
-    .h2-func {
-      font-size: 32px;
-      text-align: center;
-      margin-bottom: 0px;
-      margin-top: 130px;
-    }
-    .article-functionalities {
-      height: 738px;
-    }
-    .img-func {
-      width: 140px;
-      height: 140px;
-    }
-    .article-functionalities p {
-      width: 407px;
-      font-size: 19px;
-      line-height: 28.5px;
-      align-self: center;
-    }
+  .img-working {
+    width: 719px;
+    height: 503px;
+    margin: auto;
+  }
+  .p-inicio {
+    width: 349px;
+    height: 269px;
+    font-size: 20px;
+    line-height: 28.5px;
+    margin-top: 5vh;
+    margin-left: -10px;
+  }
+  .h2-func {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 130px;
+  }
+  .article-functionalities {
+    height: 738px;
+  }
+  .img-func {
+    width: 140px;
+    height: 140px;
+  }
+  .article-functionalities p {
+    width: 407px;
+    font-size: 19px;
+    line-height: 28.5px;
+    align-self: center;
+  }
 
+  .woman-working {
+    width: 244px;
+    height: 344px;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  .why-trackgenix {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+  }
+  .h2-trackgenix {
+    width: 100%;
+    text-align: center;
+  }
+  .why-trackgenix-hr {
+    width: 98%;
+    border-top: 2px solid #c4c4c4;
+    margin: 25px 0;
+  }
+  .why-trackgenix img {
+    width: 85px;
+    height: 85px;
+  }
+  .why-trackgenix p {
+    width: 490px;
+    font-size: 20px;
+    align-self: center;
+  }
+  .why-trackgenix-hr-2 {
+    width: 98%;
+    border-top: 2px solid #c4c4c4;
+    margin: 10px 0;
+  }
+  .love-to-hear-section {
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    height: 85vh;
+    margin-top: 150px;
+  }
+  .h2-love {
+    width: 100%;
+    font-size: 32px;
+  }
+  form {
+    width: 100%;
+    height: 60vh;
+  }
+  form label {
+    display: block;
+    font-size: 14px;
+    text-align: start;
+    width: 590px;
+    font-weight: 800;
+  }
+  form div label{
+    width: 100%;
+    margin: auto;
+  }
+.input-text {
+  width: 590px;
+  height: 37x;
+  border-radius: 5px;
+}
+
+.input-radio {
+  display: block;
+  width: 310px;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 10px auto;
+  padding-left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
+textarea {
+  width: 490px;
+  height: 116px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.submit {
+  width: 90px;
+  height: 25px;
+  color: white;
+  background-color: #373867;
+  font-size: 12px;
+  margin: auto 200px;
+  }
+.lab{
+  width: 490px;
+  margin: auto;
+  text-align: start;
+}
 }
