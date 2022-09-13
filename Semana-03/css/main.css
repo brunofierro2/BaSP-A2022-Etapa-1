@@ -309,7 +309,7 @@ textarea {
   margin-top: 8px;
 }
 
-.p-mission {
+.p-mission, .p-history {
   width: 196px;
   color: rgba(0, 0, 0, 0.82);
   font-size: 16px;
@@ -321,18 +321,10 @@ textarea {
   font-size: 16px;
 }
 
-.p-history {
-  width: 200px;
-  color: rgba(0, 0, 0, 0.82);
-  font-size: 18px;
-  line-height: 26px;
-}
-
 .img-machines {
   width: 137px;
   height: 119px;
 }
-
 /* Tablet Responsive */
 @media screen and (min-width: 768px) {
   .section-home {
@@ -387,7 +379,6 @@ textarea {
     line-height: 28.5px;
     align-self: center;
   }
-
   .woman-working {
     width: 244px;
     height: 344px;
@@ -447,45 +438,74 @@ textarea {
     width: 590px;
     font-weight: 800;
   }
-  form div label{
+  form div label {
     width: 100%;
     margin: auto;
   }
-.input-text {
-  width: 590px;
-  height: 37x;
-  border-radius: 5px;
-}
-
-.input-radio {
-  display: block;
-  width: 310px;
-  color: rgba(0, 0, 0, 0.7);
-  margin: 10px auto;
-  padding-left: 15px;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
-
-textarea {
-  width: 490px;
-  height: 116px;
-  border-radius: 5px;
-  margin: auto;
-}
-
-.submit {
-  width: 90px;
-  height: 25px;
-  color: white;
-  background-color: #373867;
-  font-size: 12px;
-  margin: auto 200px;
+  .input-text {
+    width: 590px;
+    height: 37x;
+    border-radius: 5px;
   }
-.lab{
-  width: 490px;
-  margin: auto;
-  text-align: start;
-}
+  .input-radio {
+    display: block;
+    width: 310px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 10px auto;
+    padding-left: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  textarea {
+    width: 490px;
+    height: 116px;
+    border-radius: 5px;
+    margin: auto;
+  }
+  .submit {
+    width: 90px;
+    height: 25px;
+    color: white;
+    background-color: #373867;
+    font-size: 12px;
+    margin: auto 200px;
+  }
+  .lab {
+    width: 490px;
+    margin: auto;
+    text-align: start;
+  }
+  .about-section {
+    justify-content: space-evenly;
+    height: 52vh;
+  }
+  .hr-mission{
+    margin-top: -20px;
+  }
+  .h2-about {
+    font-size: 32px;
+  }
+  .h3-mission {
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+    margin-left: 25px;
+  }
+  .img-hands {
+    width: 230px;
+  }
+  .p-mission, .p-history {
+    width: 492px;
+    line-height: 28px;
+  }
+  .h3-history {
+    font-size: 24px;
+    text-align: right;
+    margin-right: 35px;
+  }
+  .img-machines {
+    width: 215px;
+    height: 149px;
+  }
+
 }
