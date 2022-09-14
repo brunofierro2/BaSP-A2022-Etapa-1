@@ -1,38 +1,38 @@
 aside{
+    position: fixed;
     display: none;
     width: 23%;
     height: 100vh;
+    padding: 1.5vw  0 0 2vw;
     color: white;
     background-color: #373867;
     top: 0;
-    position: fixed;
     z-index: 400;
-    padding: 1.5vw  0 0 2vw;
 }
 aside input{
     width: 200px;
     height: 25px;
-    font-size: 16px;
     border-color: white;
     background-color: #373867;
     border-radius: 5px;
+    font-size: 16px;
 }
 aside button{
-    background-color: #373867;
-    border: 0;
     margin-bottom: 45px;
+    border: 0;
+    background-color: #373867;
 }
 aside button .fa-magnifying-glass{
-    font-size: 22px;
     color: rgba(255, 255, 255,0.5);
+    font-size: 22px;
 }
 aside ul li{
     margin-top: 10px;
 }
 .short-hr{
     width: 85%;
-    border-top: 1.5px solid rgba(255, 255, 255,0.10);
     margin-top: 10px;
+    border-top: 1.5px solid rgba(255, 255, 255,0.10);
 }
 .marg{
     margin-bottom: 10px;
@@ -41,8 +41,8 @@ aside ul li{
     margin-bottom: 55px;
 }
 .menu-span{
-    font-weight: 800;
     display: block;
+    font-weight: 800;
 }
 aside p{
     margin: 25px 15px 50px 0px;
@@ -63,13 +63,5 @@ aside ol li{
 @media screen and (min-width: 1024px){
     aside{
         display: inline;
-        width: 23%;
-        height: 100vh;
-        color: white;
-        background-color: #373867;
-        top: 0;
-        position: fixed;
-        z-index: 400;
-        padding: 1.5vw  0 0 2vw;
     }
 }

@@ -1,13 +1,12 @@
 main {
   padding: 0 13px;
 }
-
 .section-home {
   display: flex;
   align-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
   height: 90vh;
-  flex-wrap: wrap;
   padding-top: 102px;
 }
 .art-home {
@@ -19,51 +18,45 @@ main {
 }
 h1 {
   width: 100%;
-  font-size: 24px;
   padding-bottom: 20px;
   border-bottom: 2px solid #c4c4c4;
+  font-size: 24px;
 }
-
 .p-inicio {
   width: 272px;
   margin: auto;
+  opacity: 0.7;
   font-size: 18px;
   line-height: 24px;
-  opacity: 0.7;
 }
-
 .img-working {
   width: 358px;
   height: 223px;
   margin: auto;
 }
-
 .learnmore {
   width: 100px;
   height: 35px;
   margin: auto;
-  font-size: 14px;
-  font-weight: 500;
-  text-align: center;
   color: rgba(0, 0, 0, 0.5);
   background-color: white;
   border-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 14px;
 }
-
 button:hover {
   color: white;
   background-color: #373867;
   text-shadow: 0 0 20px white;
 }
-
 .h2-func {
+  margin-top: 130px;
+  margin-bottom: 0px;
   font-size: 24px;
   text-align: center;
-  margin-bottom: 0px;
-  margin-top: 130px;
 }
-
 .article-functionalities {
   display: flex;
   flex-wrap: wrap;
@@ -73,31 +66,26 @@ button:hover {
   margin: 40px 0;
   background-color: #dddde5;
 }
-
 .no-reverse {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
 }
-
 .row-reverse {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row-reverse;
   width: 100%;
 }
-
 .img-func {
   width: 90px;
   height: 91px;
 }
-
 .article-functionalities p {
   width: 214px;
   font-size: 16px;
   line-height: 24px;
 }
-
 .why-use {
   display: flex;
   justify-content: center;
@@ -106,23 +94,19 @@ button:hover {
   height: 79vh;
   margin-top: 10vh;
 }
-
 .woman-working {
   width: 158px;
   height: 224px;
-  border-radius: 8px;
   margin-bottom: 30px;
+  border-radius: 8px;
 }
-
 .h2-trackgenix {
   font-size: 20px;
   text-align: center;
 }
-
 .h2-trackgenix span {
   font-size: 32px;
 }
-
 .why-trackgenix {
   display: flex;
   justify-content: space-around;
@@ -130,33 +114,27 @@ button:hover {
   width: 100%;
   height: 50vh;
 }
-
 .why-trackgenix-hr {
   width: 98%;
-  border-top: 2px solid #c4c4c4;
   margin-bottom: 30px;
+  border-top: 2px solid #c4c4c4;
 }
-
 .why-trackgenix img {
   width: 48px;
   height: 48px;
 }
-
 .why-trackgenix p {
   width: 270px;
   color: rgba(0, 0, 0, 0.8);
 }
-
 .man-thinking {
   flex-direction: row;
 }
-
 .why-trackgenix-hr-2 {
   width: 98%;
-  border-top: 2px solid #c4c4c4;
   margin-bottom: 30px;
+  border-top: 2px solid #c4c4c4;
 }
-
 .love-to-hear-section {
   display: flex;
   justify-content: center;
@@ -165,13 +143,11 @@ button:hover {
   height: 85vh;
   margin-top: 80px;
 }
-
 .h2-love {
   width: 100%;
   text-align: center;
   font-size: 18px;
 }
-
 .emojis {
   display: flex;
   flex-wrap: wrap;
@@ -179,22 +155,18 @@ button:hover {
   justify-content: space-around;
   align-items: center;
 }
-
 .messages {
   width: 41px;
   height: 40px;
 }
-
 .heart {
   width: 25px;
   height: 25px;
 }
-
 .message-delivered {
   width: 51px;
   height: 44px;
 }
-
 .love-to-hear-section p {
   display: none;
   color: rgba(0, 0, 0, 0.7);
@@ -202,22 +174,16 @@ button:hover {
   font-size: 20px;
   font-variant: small-caps;
   line-height: 20px;
-  /*     width: 360px; */
 }
-
 .h2-get {
   display: none;
   font-size: 27px;
 }
-
 .hr-get {
+  position: absolute;
   width: 2px;
   height: 82vh;
-  position: absolute;
-  /* background-color: rgba(0, 0, 0, 0.12);
-    border-top: 1.5px solid #C4C4C4; */
 }
-
 form {
   display: flex;
   justify-content: center;
@@ -226,45 +192,39 @@ form {
   width: 288px;
   height: 70vh;
 }
-
 label {
   font-size: 14px;
   text-align: start;
   width: 100%;
   font-weight: 800;
 }
-
 form input {
   display: inline;
   margin: 10px 0 10px 0;
 }
-
 .input-text {
+  display: block;
   width: 288px;
   height: 25px;
-  display: block;
   margin-top: -10px;
   border-radius: 5px;
 }
-
 .input-radio {
   display: block;
   width: 200px;
-  color: rgba(0, 0, 0, 0.7);
   margin-top: 10px;
   padding-left: 15px;
+  color: rgba(0, 0, 0, 0.7);
   border: 1px solid black;
   border-radius: 5px;
 }
-
 textarea {
+  display: block;
   width: 259px;
   height: 126px;
-  border-radius: 5px;
   margin-top: 10px;
-  display: block;
+  border-radius: 5px;
 }
-
 .submit {
   width: 75px;
   height: 25px;
@@ -272,12 +232,10 @@ textarea {
   background-color: #373867;
   font-size: 12px;
 }
-
 .submit:hover {
   color: #000000;
   background-color: #c1c1df;
 }
-
 .about-section {
   display: flex;
   align-content: space-around;
@@ -286,30 +244,25 @@ textarea {
   height: 85vh;
   margin-top: 7vh;
 }
-
 .h2-about {
   width: 100%;
   text-align: center;
   font-size: 18px;
 }
-
 .hr-mission {
   width: 98%;
   border-top: 2px solid #c4c4c4;
 }
-
 .h3-mission {
   width: 100%;
   text-align: right;
   font-size: 16px;
 }
-
 .img-hands {
   width: 137px;
   height: 133px;
   margin-top: 8px;
 }
-
 .p-mission,
 .p-history {
   width: 196px;
@@ -317,12 +270,10 @@ textarea {
   font-size: 16px;
   line-height: 26px;
 }
-
 .h3-history {
   width: 100%;
   font-size: 16px;
 }
-
 .img-machines {
   width: 137px;
   height: 119px;
@@ -330,19 +281,17 @@ textarea {
 /* Tablet Responsive */
 @media screen and (min-width: 768px) {
   .section-home {
-    display: flex;
     align-content: space-around;
-    width: 100%;
     height: 95vh;
     padding-top: 142px;
   }
   h1 {
     width: 50%;
     height: 100px;
-    font-size: 32px;
-    padding-left: 5vw;
     margin-top: 5vh;
+    padding-left: 5vw;
     border-bottom: none;
+    font-size: 32px;
   }
   .learnmore {
     width: 124px;
@@ -357,16 +306,13 @@ textarea {
   .p-inicio {
     width: 349px;
     height: 269px;
-    font-size: 20px;
-    line-height: 28.5px;
     margin-top: 5vh;
     margin-left: -10px;
+    font-size: 20px;
+    line-height: 28.5px;
   }
   .h2-func {
     font-size: 32px;
-    text-align: center;
-    margin-bottom: 0px;
-    margin-top: 130px;
   }
   .article-functionalities {
     height: 738px;
@@ -377,15 +323,15 @@ textarea {
   }
   .article-functionalities p {
     width: 407px;
-    font-size: 19px;
     line-height: 28.5px;
     align-self: center;
+    font-size: 19px;
   }
   .woman-working {
     width: 244px;
     height: 344px;
-    border-radius: 8px;
     margin: 20px 0;
+    border-radius: 8px;
   }
   .why-trackgenix {
     display: flex;
@@ -400,29 +346,24 @@ textarea {
   }
   .why-trackgenix-hr {
     width: 98%;
-    border-top: 2px solid #c4c4c4;
     margin: 25px 0;
+    border-top: 2px solid #c4c4c4;
   }
   .why-trackgenix img {
     width: 85px;
     height: 85px;
   }
   .why-trackgenix p {
+    align-self: center;
     width: 490px;
     font-size: 20px;
-    align-self: center;
   }
   .why-trackgenix-hr-2 {
     width: 98%;
-    border-top: 2px solid #c4c4c4;
     margin: 10px 0;
+    border-top: 2px solid #c4c4c4;
   }
   .love-to-hear-section {
-    display: flex;
-    justify-content: center;
-    align-content: space-evenly;
-    flex-wrap: wrap;
-    height: 85vh;
     margin-top: 150px;
   }
   .h2-love {
@@ -435,9 +376,9 @@ textarea {
   }
   form label {
     display: block;
+    width: 590px;
     font-size: 14px;
     text-align: start;
-    width: 590px;
     font-weight: 800;
   }
   form div label {
@@ -452,25 +393,25 @@ textarea {
   .input-radio {
     display: block;
     width: 310px;
-    color: rgba(0, 0, 0, 0.7);
     margin: 10px auto;
     padding-left: 15px;
+    color: rgba(0, 0, 0, 0.7);
     border: 1px solid black;
     border-radius: 5px;
   }
   textarea {
     width: 490px;
     height: 116px;
-    border-radius: 5px;
     margin: auto;
+    border-radius: 5px;
   }
   .submit {
     width: 90px;
     height: 25px;
+    margin: auto 200px;
     color: white;
     background-color: #373867;
     font-size: 12px;
-    margin: auto 200px;
   }
   .lab {
     width: 490px;
@@ -489,9 +430,9 @@ textarea {
   }
   .h3-mission {
     width: 100%;
+    margin-left: 25px;
     text-align: left;
     font-size: 24px;
-    margin-left: 25px;
   }
   .img-hands {
     width: 230px;
@@ -502,9 +443,9 @@ textarea {
     line-height: 28px;
   }
   .h3-history {
+    margin-right: 35px;
     font-size: 24px;
     text-align: right;
-    margin-right: 35px;
   }
   .img-machines {
     width: 215px;
@@ -520,9 +461,9 @@ textarea {
     height: 460px;
   }
   .section-home {
+    align-items: center;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
-    align-items: center;
   }
   .art-home {
     display: flex;
@@ -533,16 +474,16 @@ textarea {
   }
   h1 {
     width: 100%;
-    font-size: 24px;
     padding-bottom: 20px;
     border-bottom: none;
+    font-size: 24px;
   }
   .p-inicio {
     width: 272px;
     margin: auto;
-    font-size: 18px;
-    line-height: 24px;
     opacity: 0.7;
+    line-height: 24px;
+    font-size: 18px;
   }
   .learnmore {
     margin: auto;
@@ -580,26 +521,22 @@ textarea {
     height: 79vh;
     margin-top: 10vh;
   }
-  
   .woman-working {
+    display: inline;
     width: 307px;
     height: 524px;
     border-radius: 8px;
     margin: auto;
-    display: inline;
   }
-  
   .h2-trackgenix {
     align-self: center;
+    width: 25%;
     font-size: 15px;
     text-align: initial;
-    width: 25%;
   }
-  
   .h2-trackgenix span {
     font-size: 22px;
-  }
-  
+  }  
   .why-trackgenix {
     display: flex;
     justify-content: space-around;
@@ -607,31 +544,143 @@ textarea {
     width: 40%;
     height: 75vh;
   }
-  
   .why-trackgenix-hr {
     width: 2%;
     height: 75vh;
+    margin-bottom: 30px;
     border-left: 2px solid #c4c4c4;
     border-top: 0px solid #c4c4c4;
-    margin-bottom: 30px;
   }
-  
   .why-trackgenix img {
     width: 78px;
     height: 78px;
     margin: auto;
   }
-  
   .why-trackgenix p, .why-trackgenix div p {
     width: 270px;
   }  
   .why-trackgenix-hr-2 {
     display: none;
     height: 90vh;
-    border-top: 2px solid #c4c4c4;
     margin-bottom: 30px;
+    border-top: 2px solid #c4c4c4;
   }
   .row-r-d{
     width: 100%;
+  }
+  .love-to-hear-section {
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    height: 85vh;
+    margin-top: 80px;
+  }
+  .love-left{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-self: center;
+    width: 40%;
+    height: 45vh;
+  }
+  .love-right{
+    align-self: center;
+  }
+  .h2-love {
+    text-align: center;
+    font-size: 25px;
+  }
+  .emojis {
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+  }
+  .messages {
+    width: 61px;
+    height: 60px;
+  }
+  .heart {
+    width: 35px;
+    height: 35px;
+  }
+  .message-delivered {
+    width: 77px;
+    height: 76px;
+  }
+  .love-to-hear-section p {
+    display: inline;
+    width: 300px;
+    margin: auto;
+    font-size: 20px;
+  }  
+  .hr-get {
+    position: relative;
+    width: 2px;
+    height: 82vh;
+    margin:0 4vw;
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+  form {
+    width: 388px;
+    height: 70vh;
+  } 
+  label {
+    font-size: 14px;
+    text-align: start;
+  }  
+  .input-text {
+    width: 388px;
+    height: 25px;
+  }
+  .input-radio {
+    width: 200px;
+  }
+  textarea {
+    width: 388px;
+    height: 80px;
+  }
+  .submit {
+    width: 100px;
+    height: 28px;
+    margin: auto ;
+    font-size: 13px;
+  }
+  .about-section {
+    justify-content: space-evenly;
+    height: 72vh;
+    margin-bottom: 15vh;
+  }
+  .hr-mission {
+    margin-top: -10px;
+  }
+  .h2-about {
+    text-align: left;
+    font-size: 30px;
+  }
+  .h3-mission {
+    width: 100%;
+    margin-left: 25px;
+    text-align: left;
+    font-size: 24px;
+  }
+  .img-hands {
+    width: 300px;
+    height: 180px;
+  }
+  .p-mission,
+  .p-history {
+    width: 492px;
+    line-height: 28px;
+    font-variant: small-caps;
+  }
+  .h3-history {
+    margin-right: 35px;
+    font-size: 24px;
+    text-align: right;
+  }
+  .img-machines {
+    width: 305px;
+    height: 180px;
   }
 }
