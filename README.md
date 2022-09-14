@@ -5,6 +5,9 @@
 
 2- open the file "index.html" on your browser
 
+# GitHub Pages
+https://github.com/brunofierro2/BaSP-A2022-Etapa-1
+
 ## Week 01
 Structure and SEO of the site
 
