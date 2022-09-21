@@ -17,5 +17,8 @@ Started adding CSS without using flexbox nor grid
 ## Week 03
 Started with the responsive of the page, implementing both media queries and flexbox
 
+## Week 04
+Added some exersises of javascript which includes variables, strings, arrays, if else for and functions
+
 # Author:
         Bruno Fierro
