@@ -1,0 +1,15 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.bold{
+    font-weight: 800;
+}
+

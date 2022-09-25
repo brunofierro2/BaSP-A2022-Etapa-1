@@ -1,0 +1,71 @@
+.fa-bars {
+  color: white;
+  font-size: 30px;
+}
+.fa-brands {
+  color: white;
+}
+nav p {
+  display: inline;
+  align-self: center;
+  width: 100%;
+  margin-left: 20px;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  height: 81px;
+  padding: 20px 0 0 13px;
+  background-color: #373867;
+  z-index: 500;
+}
+nav div {
+  width: 98%;
+  margin-top: 15px;
+  border-top: 2px solid white;
+}
+header ul {
+  display: none;
+}
+nav ul li {
+  display: none;
+}
+/* LOGIN */
+.nav-login {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 81px;
+  color: white;
+  background-color: #373867;
+}
+.nav-login .fa-bars {
+  font-size: 1.3em;
+}
+nav a, nav h2, .fa-bars{
+    text-shadow: 0 0 15px black;
+  }
+  .h2-login{
+    font-size: 1.4em;
+  }
+@media screen and (min-width: 1024px) {
+  nav {
+    width: 77%;
+    margin-left: 23%;
+  }
+  header ul {
+    display: inline;
+    margin-left: 63%;
+  }
+  nav ul li {
+    display: inline;
+    margin-left: 1vw;
+  }
+  .nav-login {
+    width: 77%;
+  }
+}

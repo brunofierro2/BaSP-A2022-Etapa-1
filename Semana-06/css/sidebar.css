@@ -1,0 +1,67 @@
+aside{
+    position: fixed;
+    display: none;
+    width: 23%;
+    height: 100vh;
+    padding: 1.5vw  0 0 2vw;
+    color: white;
+    background-color: #373867;
+    top: 0;
+    z-index: 400;
+}
+aside input{
+    width: 200px;
+    height: 25px;
+    border-color: white;
+    background-color: #373867;
+    border-radius: 5px;
+    font-size: 16px;
+}
+aside button{
+    margin-bottom: 45px;
+    border: 0;
+    background-color: #373867;
+}
+aside button .fa-magnifying-glass{
+    color: rgba(255, 255, 255,0.5);
+    font-size: 22px;
+}
+aside ul li{
+    margin-top: 10px;
+}
+.short-hr{
+    width: 85%;
+    margin-top: 10px;
+    border-top: 1.5px solid rgba(255, 255, 255,0.10);
+}
+.marg{
+    margin-bottom: 10px;
+}
+.marg2{
+    margin-bottom: 55px;
+}
+.menu-span{
+    display: block;
+    font-weight: 800;
+}
+aside p{
+    margin: 25px 15px 50px 0px;
+}
+.fa-envelope, .fa-house, .fa-phone{
+    font-size: 20px;
+}
+aside ol li:first-child{
+    text-decoration: underline;
+}
+aside ol li span{
+    margin-left: 10px;
+}
+aside ol li{
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 1024px){
+    aside{
+        display: inline;
+    }
+}

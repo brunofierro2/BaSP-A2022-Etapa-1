@@ -1,0 +1,710 @@
+main {
+  padding: 0 13px;
+}
+.section-home {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 90vh;
+  padding-top: 102px;
+}
+.art-home {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 100%;
+  height: 40vh;
+}
+h1 {
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #c4c4c4;
+  font-size: 24px;
+}
+.p-inicio {
+  width: 272px;
+  margin: auto;
+  opacity: 0.7;
+  font-size: 18px;
+  line-height: 24px;
+}
+.img-working {
+  width: 358px;
+  height: 223px;
+  margin: auto;
+}
+.learnmore {
+  width: 100px;
+  height: 35px;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: white;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 14px;
+}
+button:hover {
+  color: white;
+  background-color: #373867;
+  text-shadow: 0 0 20px white;
+}
+.h2-func {
+  margin-top: 130px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  text-align: center;
+}
+.article-functionalities {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 720px;
+  margin: 40px 0;
+  background-color: #dddde5;
+}
+.no-reverse {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.row-reverse {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+.img-func {
+  width: 90px;
+  height: 91px;
+}
+.article-functionalities p {
+  width: 214px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.why-use {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 79vh;
+  margin-top: 10vh;
+}
+.woman-working {
+  width: 158px;
+  height: 224px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+.h2-trackgenix {
+  font-size: 20px;
+  text-align: center;
+}
+.h2-trackgenix span {
+  font-size: 32px;
+}
+.why-trackgenix {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50vh;
+}
+.why-trackgenix-hr {
+  width: 98%;
+  margin-bottom: 30px;
+  border-top: 2px solid #c4c4c4;
+}
+.why-trackgenix img {
+  width: 48px;
+  height: 48px;
+}
+.why-trackgenix p {
+  width: 270px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.man-thinking {
+  flex-direction: row;
+}
+.why-trackgenix-hr-2 {
+  width: 98%;
+  margin-bottom: 30px;
+  border-top: 2px solid #c4c4c4;
+}
+.love-to-hear-section {
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+  height: 85vh;
+  margin-top: 80px;
+}
+.h2-love {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.emojis {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+.messages {
+  width: 41px;
+  height: 40px;
+}
+.heart {
+  width: 25px;
+  height: 25px;
+}
+.message-delivered {
+  width: 51px;
+  height: 44px;
+}
+.love-to-hear-section p {
+  display: none;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-size: 20px;
+  font-variant: small-caps;
+  line-height: 20px;
+}
+.h2-get {
+  display: none;
+  font-size: 27px;
+}
+.hr-get {
+  position: absolute;
+  width: 2px;
+  height: 82vh;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+  width: 288px;
+  height: 70vh;
+}
+label {
+  font-size: 14px;
+  text-align: start;
+  width: 100%;
+  font-weight: 800;
+}
+form input {
+  display: inline;
+  margin: 10px 0 10px 0;
+}
+.input-text {
+  display: block;
+  width: 288px;
+  height: 25px;
+  margin-top: -10px;
+  border-radius: 5px;
+}
+.input-radio {
+  display: block;
+  width: 200px;
+  margin-top: 10px;
+  padding-left: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+textarea {
+  display: block;
+  width: 259px;
+  height: 126px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.submit {
+  width: 75px;
+  height: 25px;
+  color: white;
+  background-color: #373867;
+  font-size: 12px;
+}
+.submit:hover {
+  color: #000000;
+  background-color: #c1c1df;
+}
+.about-section {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 85vh;
+  margin-top: 7vh;
+}
+.h2-about {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.hr-mission {
+  width: 98%;
+  border-top: 2px solid #c4c4c4;
+}
+.h3-mission {
+  width: 100%;
+  text-align: right;
+  font-size: 16px;
+}
+.img-hands {
+  width: 137px;
+  height: 133px;
+  margin-top: 8px;
+}
+.p-mission,
+.p-history {
+  width: 196px;
+  color: rgba(0, 0, 0, 0.82);
+  font-size: 16px;
+  line-height: 26px;
+}
+.h3-history {
+  width: 100%;
+  font-size: 16px;
+}
+.img-machines {
+  width: 137px;
+  height: 119px;
+}
+/* Login */
+.main-login{
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  margin-bottom: -50px;
+  height: 80vh;
+  background-color:  rgba(223,223,223,0.6);
+  border-bottom: 1px solid rgb(46, 45, 45);
+}
+/* Tablet Responsive */
+@media screen and (min-width: 768px) {
+  .section-home {
+    align-content: space-around;
+    height: 95vh;
+    padding-top: 142px;
+  }
+  h1 {
+    width: 50%;
+    height: 100px;
+    margin-top: 5vh;
+    padding-left: 5vw;
+    border-bottom: none;
+    font-size: 32px;
+  }
+  .learnmore {
+    width: 124px;
+    height: 40px;
+    margin: -22vh 0 0 5vw;
+  }
+  .img-working {
+    width: 719px;
+    height: 503px;
+    margin: auto;
+  }
+  .p-inicio {
+    width: 349px;
+    height: 269px;
+    margin-top: 5vh;
+    margin-left: -10px;
+    font-size: 20px;
+    line-height: 28.5px;
+  }
+  .h2-func {
+    font-size: 32px;
+  }
+  .article-functionalities {
+    height: 738px;
+  }
+  .img-func {
+    width: 140px;
+    height: 140px;
+  }
+  .article-functionalities p {
+    width: 407px;
+    line-height: 28.5px;
+    align-self: center;
+    font-size: 19px;
+  }
+  .woman-working {
+    width: 244px;
+    height: 344px;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+  .why-trackgenix {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+  }
+  .h2-trackgenix {
+    width: 100%;
+    text-align: center;
+  }
+  .why-trackgenix-hr {
+    width: 98%;
+    margin: 25px 0;
+    border-top: 2px solid #c4c4c4;
+  }
+  .why-trackgenix img {
+    width: 85px;
+    height: 85px;
+  }
+  .why-trackgenix p {
+    align-self: center;
+    width: 490px;
+    font-size: 20px;
+  }
+  .why-trackgenix-hr-2 {
+    width: 98%;
+    margin: 10px 0;
+    border-top: 2px solid #c4c4c4;
+  }
+  .love-to-hear-section {
+    margin-top: 150px;
+  }
+  .h2-love {
+    width: 100%;
+    font-size: 32px;
+  }
+  form {
+    width: 100%;
+    height: 60vh;
+  }
+  form label {
+    display: block;
+    width: 590px;
+    font-size: 14px;
+    text-align: start;
+    font-weight: 800;
+  }
+  form div label {
+    width: 100%;
+    margin: auto;
+  }
+  .input-text {
+    width: 590px;
+    height: 37x;
+    border-radius: 5px;
+  }
+  .input-radio {
+    display: block;
+    width: 310px;
+    margin: 10px auto;
+    padding-left: 15px;
+    color: rgba(0, 0, 0, 0.7);
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  textarea {
+    width: 490px;
+    height: 116px;
+    margin: auto;
+    border-radius: 5px;
+  }
+  .submit {
+    width: 90px;
+    height: 25px;
+    margin: auto 200px;
+    color: white;
+    background-color: #373867;
+    font-size: 12px;
+  }
+  .lab {
+    width: 490px;
+    margin: auto;
+    text-align: start;
+  }
+  .about-section {
+    justify-content: space-evenly;
+    height: 52vh;
+  }
+  .hr-mission {
+    margin-top: -20px;
+  }
+  .h2-about {
+    font-size: 32px;
+  }
+  .h3-mission {
+    width: 100%;
+    margin-left: 25px;
+    text-align: left;
+    font-size: 24px;
+  }
+  .img-hands {
+    width: 230px;
+  }
+  .p-mission,
+  .p-history {
+    width: 492px;
+    line-height: 28px;
+  }
+  .h3-history {
+    margin-right: 35px;
+    font-size: 24px;
+    text-align: right;
+  }
+  .img-machines {
+    width: 215px;
+    height: 149px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    margin-left: 23%;
+  }
+  .img-working {
+    width: 470px;
+    height: 460px;
+  }
+  .section-home {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+  }
+  .art-home {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: left;
+    width: 40%;
+    margin-left: 4vw;
+  }
+  h1 {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-left: 0;
+    border-bottom: none;
+    font-size: 24px;
+    justify-self: flex-start;
+  }
+  .p-inicio {
+    width: 450px;
+    margin: 0;
+    opacity: 0.7;
+    line-height: 24px;
+    font-size: 18px;
+  }
+  .learnmore {
+    width: 124px;
+    margin: 0;
+  }
+  .h2-func {
+    font-size: 32px;
+    text-align: left;
+  }
+  .article-functionalities {
+    height: 520px;
+    background-color: white;
+  }
+  .img-func {
+    width: 100px;
+    height: 100px;
+  }
+  .row-reverse {
+    flex-direction: row;
+    width: 50%;
+  }
+  .no-reverse {
+    justify-content: initial;
+    width: 50%;
+  }
+  .article-functionalities p {
+    width: 340px;
+    margin-left: 2vw;
+    font-size: 20px;
+  }
+  .why-use {
+    display: flex;
+    justify-content: initial;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 79vh;
+    margin-top: 10vh;
+  }
+  .woman-working {
+    display: inline;
+    width: 307px;
+    height: 524px;
+    border-radius: 8px;
+    margin: auto;
+  }
+  .h2-trackgenix {
+    align-self: center;
+    width: 25%;
+    font-size: 15px;
+    text-align: initial;
+  }
+  .h2-trackgenix span {
+    font-size: 22px;
+  }  
+  .why-trackgenix {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 75vh;
+  }
+  .why-trackgenix-hr {
+    width: 2%;
+    height: 75vh;
+    margin-bottom: 30px;
+    border-left: 2px solid #c4c4c4;
+    border-top: 0px solid #c4c4c4;
+  }
+  .why-trackgenix img {
+    width: 78px;
+    height: 78px;
+    margin: auto;
+  }
+  .why-trackgenix p, .why-trackgenix div p {
+    width: 270px;
+  }  
+  .why-trackgenix-hr-2 {
+    display: none;
+    height: 90vh;
+    margin-bottom: 30px;
+    border-top: 2px solid #c4c4c4;
+  }
+  .row-r-d{
+    width: 100%;
+  }
+  .love-to-hear-section {
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    height: 85vh;
+    margin-top: 80px;
+  }
+  .love-left{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-self: center;
+    width: 40%;
+    height: 45vh;
+  }
+  .love-right{
+    align-self: center;
+  }
+  .h2-love {
+    text-align: center;
+    font-size: 25px;
+  }
+  .emojis {
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+  }
+  .messages {
+    width: 61px;
+    height: 60px;
+  }
+  .heart {
+    width: 35px;
+    height: 35px;
+  }
+  .message-delivered {
+    width: 77px;
+    height: 76px;
+  }
+  .love-to-hear-section p {
+    display: inline;
+    width: 300px;
+    margin: auto;
+    font-size: 20px;
+  }  
+  .hr-get {
+    position: relative;
+    width: 2px;
+    height: 82vh;
+    margin:0 4vw;
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+  form {
+    width: 388px;
+    height: 70vh;
+  } 
+  label {
+    font-size: 14px;
+    text-align: start;
+  }  
+  .input-text {
+    width: 388px;
+    height: 25px;
+  }
+  .input-radio {
+    width: 200px;
+  }
+  textarea {
+    width: 388px;
+    height: 80px;
+  }
+  .submit {
+    width: 100px;
+    height: 28px;
+    margin: auto ;
+    font-size: 13px;
+  }
+  .about-section {
+    justify-content: space-evenly;
+    height: 72vh;
+    margin-bottom: 15vh;
+  }
+  .hr-mission {
+    margin-top: -10px;
+  }
+  .h2-about {
+    text-align: left;
+    font-size: 30px;
+  }
+  .h3-mission {
+    width: 100%;
+    margin-left: 25px;
+    text-align: left;
+    font-size: 24px;
+  }
+  .img-hands {
+    width: 300px;
+    height: 180px;
+  }
+  .p-mission,
+  .p-history {
+    width: 492px;
+    line-height: 28px;
+    font-variant: small-caps;
+  }
+  .h3-history {
+    margin-right: 35px;
+    font-size: 24px;
+    text-align: right;
+  }
+  .img-machines {
+    width: 305px;
+    height: 180px;
+  }
+  /* Login */
+.main-login{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: -50px;
+  padding-top: 10vh;
+}
+}

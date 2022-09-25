@@ -20,5 +20,9 @@ Started with the responsive of the page, implementing both media queries and fle
 ## Week 04
 Added some exersises of javascript which includes variables, strings, arrays, if else for and functions
 
+## Week 06
+Javascript is being included to the site. For now, only in the login and sign up
+
+
 # Author:
         Bruno Fierro

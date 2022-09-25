@@ -1,0 +1,89 @@
+.h1-login{
+  width: 100%;
+  border-bottom: 0;
+  font-size: 2em;
+  font-weight: 800;
+  text-align: center;
+}
+.main-login div input{
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.main-login form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 50vh;
+  margin: auto;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 6px 6px  10px rgb(87, 83, 83);
+}
+.main-login form div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  width: 100%;
+  height: 9vh;
+  margin: auto;
+}
+div input{
+  font-size: 22px;
+  width: 45vw;
+  height: 20px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.inline{
+  display: inline;
+}
+.pass{
+  width: 100%;
+  text-align: center;
+}
+.continue{
+  width: 60%;
+  height: 5vh;
+  padding: 0 50px;
+  color: white;
+  background-color: #373867;
+}
+.checkbox-login{
+  margin-left: 10px;
+}
+@media screen and (min-width: 1024px){
+  .h1-login{
+    font-size: 2.6em;
+  }
+  .main-login{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 90vh;
+    margin-left: 23%;
+  }
+  .main-login form{
+    width: 50%;
+    height: 75vh;
+    margin: auto;
+  }
+  div input{
+  width: 280px;
+  height: 20px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+  .pass{
+    width: auto;
+    text-align: center;
+    margin-left: 2vw;
+  }
+  .continue{
+    width: 60%;
+    font-size: 20px;
+  }
+}
