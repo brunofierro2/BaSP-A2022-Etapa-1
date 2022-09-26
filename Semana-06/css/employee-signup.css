@@ -1,0 +1,56 @@
+.p-sign{
+  width: auto;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+label{
+  display: block;
+}
+.main-sign-up input{
+  border: 2px solid rgb(83, 80, 80);
+}
+.main-sign-up form{
+  width: 50%;
+  height: 110vh;
+  margin-top: 15vh;
+  padding: 0 140px;
+  border: 1px solid black;
+}
+.main-sign-up form div{
+  width: 43vw;
+  justify-self: center;
+  margin: auto;
+
+}
+.continue{
+  width: auto;
+  height: 5vh;
+  padding: 0 50px;
+  color: white;
+  background-color: #373867;
+}
+@media screen and (min-width: 1024px){
+  .p-sign{
+    width: 100%;
+  }
+  .main-sign-up{
+    width: auto;
+    height: 110vh;
+  }
+  .main-sign-up form div{
+    width: auto;
+    margin: 0 15px;
+  }
+  .main-sign-up form{
+    width: 65%;
+    height: 120vh;
+    margin-top: 80vh;
+    margin-bottom: 30vh;
+    padding: 0 40px;
+    border: 1px solid black;
+  }
+  .continue{
+    margin: 0 100px;
+  }
+}

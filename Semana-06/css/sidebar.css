@@ -64,4 +64,24 @@ aside ol li{
     aside{
         display: inline;
     }
+    aside input{
+        width: 140px;
+    }
+
+aside p{
+    font-size: 14px;
+}
+.fa-envelope, .fa-house, .fa-phone{
+    font-size: 18px;
+}
+aside ol li:first-child{
+    text-decoration: underline;
+}
+aside ol li span{
+    font-size: 14px;
+    margin-left: 5px;
+}
+aside ol li{
+    margin-top: 10px;
+}
 }

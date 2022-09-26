@@ -126,12 +126,12 @@ footer p{
     .list-footer{
         display: flex;
         justify-content: space-between;
-        width: 55%;
+        width: 60%;
         margin-top: 10px;
     }
     footer ol li{
         list-style: decimal;
-        font-size: 18px;
+        font-size: 16px;
     }
     footer ol div{
         margin-bottom: 20px;

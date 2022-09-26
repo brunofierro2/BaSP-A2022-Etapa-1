@@ -288,6 +288,14 @@ textarea {
   background-color:  rgba(223,223,223,0.6);
   border-bottom: 1px solid rgb(46, 45, 45);
 }
+/* Sign up */
+.main-sign-up{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 120vh;
+}
 /* Tablet Responsive */
 @media screen and (min-width: 768px) {
   .section-home {
@@ -706,5 +714,9 @@ textarea {
   align-content: center;
   margin-bottom: -50px;
   padding-top: 10vh;
+}
+/* Sign up */
+.main-sign-up{
+  margin-bottom: 40vh;
 }
 }
