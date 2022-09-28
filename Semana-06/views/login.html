@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="../css/sidebar.css">
   <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/login.css">
+  <script src="../javascript/login.js"></script>
   <title>Log In</title>
 </head>
 
@@ -41,7 +42,7 @@
       </li>
       <div class="short-hr"></div>
       <li>
-        <a href="sign-up.html">SIGN UP</a>
+        <a href="employee-signup.html">SIGN UP</a>
       </li>
       <div class="short-hr"></div>
       <li>
@@ -76,20 +77,20 @@
   </aside>
 
   <main class="main-login">
-    <form action="">
-      <h1 class="h1-login">Login</h1>
+    <form name="loginForm" action="">
+      <h1 class="h1-login" id="title">Login</h1>
       <div>
         <i class="fa-solid icons-login fa-envelope">
-          <input type="text">
+          <input type="text" name="emailName" id="userLogin" class="borde">
         </i>
         <i class="fa-solid icons-login fa-lock">
-          <input type="password">
+          <input type="password" name="passName" id="passLogin">
         </i>
       </div>
       <span class="bold">Remember me</span>
       <input class="checkbox-login" type="checkbox" name="remember-me" id="">
       <span class="bold pass">Forgot password?</span>
-      <button class="continue">Continue</button>
+      <button class="continue" id="button">Log in</button>
     </form>
   </main>
 
@@ -155,4 +156,5 @@
   </footer>
 
 </body>
+
 </html>

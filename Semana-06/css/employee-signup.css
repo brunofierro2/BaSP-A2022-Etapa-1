@@ -40,10 +40,14 @@ label{
   }
   .main-sign-up form div{
     width: auto;
-    margin: 0 15px;
+    margin: 0 45px;
+  }
+  .main-sign-up input{
+    height: 24px;
+    width: 150px;
   }
   .main-sign-up form{
-    width: 65%;
+    width: 60vw;
     height: 120vh;
     margin-top: 80vh;
     margin-bottom: 30vh;
@@ -51,6 +55,6 @@ label{
     border: 1px solid black;
   }
   .continue{
-    margin: 0 100px;
+    margin: 0 200px;
   }
 }
